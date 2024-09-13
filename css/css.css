@@ -45,14 +45,16 @@ header{background: #111111; transition: 0.3s; position: fixed; left: 0; top: 0; 
 header.on{transform: translateY(-137px); }
 .headerbg{width: 100%; height: 137px; background-color: #111;}
 .top{height: 95px;padding: 35px 75px;margin: 0 auto; display: flex; justify-content: flex-end; position: relative; border-bottom: 1px solid #444; align-items: center; box-sizing: border-box;}
-.top a{color: #fff; font-size: 14px; display: block; padding: 0 25px; font-weight: 500; font-family: "Noto Sans kr"; position: relative; letter-spacing: -1px;}
-.top a::after{position: absolute; content: "";height: 20px; width: 1px; left: 0; top: 50%; transform: translateY(-50%); background: #ddd;}
+.top>a{color: #fff; font-size: 14px; display: block; padding: 0 25px; font-weight: 500; font-family: "Noto Sans kr"; position: relative; letter-spacing: -1px;}
+.top>a::after{position: absolute; content: "";height: 20px; width: 1px; left: 0; top: 50%; transform: translateY(-50%); background: #ddd;}
 .top .logo{position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%);width: 160px;height: 64px;}
 .top .logo img{width: 100%; height: 100%; object-fit: cover;}
 
-.top .icon {display: flex; flex-direction: row; padding-right: 20px;}
-.top .icon p{width: 17px;height: 18px; padding: 0 10px; clip-path: fill-box; opacity: 0.7; }
-.top .icon p img{width: 100%; height: 100%; object-fit: cover;}
+.top .icon {display: flex; flex-direction: row; padding-right: 20px; }
+.top .icon a{display: block;width: 17px;height: 18px;  font-size: 16px; color: #fff; padding: 0 10px; display: flex; align-items: center; justify-content: center;}
+
+
+
 
 ul.menu{width: 1140px; margin: 0 auto;display: flex; flex-direction: row; }
 ul.menu>li{flex: 0 0 20%; position: relative; text-align: center; }
@@ -78,7 +80,7 @@ ul.menu>li .sub a:hover{background: #dbab72; color: #fff;}
 /* main */
 
 .mySwiper{width: 100%; height: 100%; position: relative; }
-.bgswipe {text-align: center;display: flex;align-items: center; font-size: 0;}
+.bgswipe {text-align: center;display: flex;align-items: center;}
 
   .bgswipe img {display: block;width: 100%;height: 100%;object-fit: cover;}
 
@@ -88,12 +90,12 @@ ul.menu>li .sub a:hover{background: #dbab72; color: #fff;}
   }
 
 
-.culture{background: url(https://www.sungsimdang.co.kr/theme/responsive_sungsimdang/include/img/m_about_bg.jpg); background-size: cover; background-repeat: no-repeat;}
+.culture{background: url(https://www.sungsimdang.co.kr/theme/responsive_sungsimdang/include/img/m_about_bg.jpg); background-size: cover; background-repeat: no-repeat; font-size: 0;}
 .culturewrap{width: 1390px; height: 532px; margin: 0 auto; padding: 70px 0; display: flex; flex-direction: row; align-items: center;}
 .culturewrap>div:first-child{width: 45%; height: 100%;}
 .culturewrap>div img{width: 100%; height: 100%; object-fit: cover;}
 .culturewrap .text{width: 55%;color: #111111;letter-spacing: -1px; padding-left: 70px;}
-.culturewrap .text .title{font-size: 42px; font-family: Maruburi;font-weight: bold; }
+.culturewrap .text .title{font-size: 42px; font-family: Maruburi;font-weight: bold;}
 .culturewrap .text p{font-size: 17px; font-family: NotoSansKr; line-height: 30px;font-weight: 400; }
 .culturewrap .text p:nth-child(2){padding: 80px 0 40px;}
 
@@ -123,7 +125,7 @@ ul.menu>li .sub a:hover{background: #dbab72; color: #fff;}
 
 .swiper-button-next, .swiper-button-prev{color: #aaa; z-index: 1;transform: scale(0.4)translateY(-50%)}
 
-.media{width: 100%; height: 100vh;background: #fff;padding: 100px 0;}
+.media{width: 100%;background: #fff;padding: 130px 0;}
 .media .title{font-size: 38px; color: #161616;margin-top: 0;}
 .media .title span{font-weight: bold;}
 .media>p{text-align: center; font-family: "Noto Sans Kr";font-size: 18px; color: #4f2700; position: relative;}
@@ -142,7 +144,7 @@ ul.menu>li .sub a:hover{background: #dbab72; color: #fff;}
 .media .list li p{margin: 0; font-size: 0;}
 .media .list li p:last-child{font-size: 22px; padding: 25px 0 10px; font-weight: bold; font-family: "Noto Sans Kr"; text-align: center; letter-spacing: -1px;}
 
-.family{background: #f8f0e5;padding: 100px 0; } 
+.family{background: #f8f0e5;padding: 130px 0 80px; } 
 .family .title{font-size: 38px; color: #161616; margin-top: 0;}
 .family>p:nth-child(2){padding-bottom: 50px;}
 .family .title span{font-weight: bold;}
@@ -156,7 +158,6 @@ ul.menu>li .sub a:hover{background: #dbab72; color: #fff;}
 .family .grid li .name{position: absolute;bottom: 0; background: rgba(0,0,0,0.4); width: 100%; height: 20px; text-align: center; padding: 10px 0; color: #fff;font-family: "Noto Sans Kr"; line-height: 16px; letter-spacing: -1px; font-weight: 500;} 
 
 footer{background-color: #151515;}
-
 .foot{width: 90%; max-width: 1390px; margin: 0 auto; color: #888888; padding: 60px 0;}
 
 .foot>a{display: block;width: 174px;height: 70px;}
@@ -166,10 +167,15 @@ div.info{display: flex; flex-direction: row; justify-content: space-between; lin
 
 .foot .info .left>a{color: #888888;font-family: "Noto Sans Kr"; }
 .foot .info .left>a span{color: #dbab72;}
+.foot .info .left>p span{display: inline-block; padding-right: 20px; letter-spacing: -1.2px;}
 
-.foot .info .right{text-align: right;}
+.foot .info .right{text-align: right; letter-spacing: -1.3px;}
 .foot .info .right h1{font-size: 34px; color: #dbab72; line-height: 45px;}
+.foot .info .right .icon{display: flex; flex-direction: row; margin-top: 20px; justify-content: right;}
+.foot .info .right .icon a{display: block;width: 17px;height: 18px;  font-size: 13px; color:#dbab72;padding: 0 10px; display: flex; align-items: center; justify-content: center;}
+.foot .info .right .icon a:last-child{padding-right: 0;}
 
-.upbtn{width: 51px; height: 51px; position: fixed; right: 10px; bottom: 10px;}
+
+.upbtn{width: 51px; height: 51px; position: fixed; right: 10px; bottom: 10px; z-index: 999;}
 .upbtn a{display: block; width: 100%; height: 100%; background: #111111}
 .upbtn a img{width: 100%; height: 100%; object-fit: cover; object-position: 0 -51px;}
