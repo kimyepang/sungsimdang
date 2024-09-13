@@ -15,6 +15,7 @@ nomore.forEach(function(v,k){
   }
 });
 
+
 //슬라이드
 
 var swiper = new Swiper(".mySwiper", {
@@ -32,6 +33,15 @@ var swiper = new Swiper(".mySwiper", {
       
 });
 
+let header = document.querySelector("header")
+window.onscroll = function(){
+  if(window.scrollY > 200){
+    header.classList.add("on");
+  }else if(window.scrollY < 200){
+    header.classList.remove("on");
+  }
+}
+
 //명예의 전당
 
 var swiper = new Swiper(".mySwiper1", {
@@ -39,10 +49,9 @@ var swiper = new Swiper(".mySwiper1", {
   loop: true,
   slidesOffsetBefore: -1042,
   autoplay: {
-    dalay: 2000,
     loop: true,
+    dalay:1000,
     disableOnInteraction: false,
-    loopAdditionalSlides: 4,
   },
   navigation: {
     nextEl: ".swiper-button-next",

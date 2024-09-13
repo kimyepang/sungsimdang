@@ -41,7 +41,9 @@ ul.popup li .btn button:nth-child(2){background: #000;}
 
 
 /* <!--header--!> */
-header{background: #111111;}
+header{background: #111111; transition: 0.3s; position: fixed; left: 0; top: 0; z-index: 2; width: 100%; height: 137px;}
+header.on{transform: translateY(-137px); }
+.headerbg{width: 100%; height: 137px; background-color: #111;}
 .top{height: 95px;padding: 35px 75px;margin: 0 auto; display: flex; justify-content: flex-end; position: relative; border-bottom: 1px solid #444; align-items: center; box-sizing: border-box;}
 .top a{color: #fff; font-size: 14px; display: block; padding: 0 25px; font-weight: 500; font-family: "Noto Sans kr"; position: relative; letter-spacing: -1px;}
 .top a::after{position: absolute; content: "";height: 20px; width: 1px; left: 0; top: 50%; transform: translateY(-50%); background: #ddd;}
@@ -52,11 +54,12 @@ header{background: #111111;}
 .top .icon p{width: 17px;height: 18px; padding: 0 10px; clip-path: fill-box; opacity: 0.7; }
 .top .icon p img{width: 100%; height: 100%; object-fit: cover;}
 
-ul.menu{width: 1140px; margin: 0 auto;display: flex; flex-direction: row;}
+ul.menu{width: 1140px; margin: 0 auto;display: flex; flex-direction: row; }
 ul.menu>li{flex: 0 0 20%; position: relative; text-align: center; }
 ul.menu>li>a{font-size: 18px; display:inline-block;font-family: Montserrat; font-weight: bold; color: #fff;line-height: 42px; position: relative;}
 ul.menu>li>a:after{position: absolute; content: ""; width: 100%; height: 3px; background-color: #dbab72; left: 0; bottom: -1px; transition: 0.5s; transform-origin: center;transform: scale(0);}
 ul.menu>li>a:hover:after{transform: scale(100%);}
+
 
 .top .mall{display: flex; flex-direction: row;}
 .top .mall .shop{width: 21px;height: 18px;}
@@ -75,7 +78,7 @@ ul.menu>li .sub a:hover{background: #dbab72; color: #fff;}
 /* main */
 
 .mySwiper{width: 100%; height: 100%; position: relative; }
-.bgswipe {text-align: center;display: flex;align-items: center; }
+.bgswipe {text-align: center;display: flex;align-items: center; font-size: 0;}
 
   .bgswipe img {display: block;width: 100%;height: 100%;object-fit: cover;}
 
@@ -106,21 +109,21 @@ ul.menu>li .sub a:hover{background: #dbab72; color: #fff;}
 .bestlist{width: 100%;max-width: 1390px; margin: 0 auto;position: relative;}
 .best .inner{width: 100%;display: flex; overflow-x: hidden; }
 
-.best .inner .swiper {overflow: visible;width: 25%;transform: translateX(521px); border: 1px solid;}
+.best .inner .swiper {overflow: visible;width: 25%;transform: translateX(521px); }
 
 .best .swiper-slide {text-align: center;font-size: 18px;
-  display: flex; flex-direction: column;width: 100% ;justify-content: right;align-items: center;  position: relative; }
+  display: flex; flex-direction: column;width: 90% ;justify-content: right;align-items: center;  position: relative; }
 
 .best .swiper-slide img {display: block;object-fit: cover;}
 .best .swiper-slide .txt{width: 100%;}
 .best .swiper-slide .txt h2{font-size: 20px; padding: 25px 0 10px; color: #161616;}
-.best .swiper-slide .txt p{font-size: 14px; color: #434343; letter-spacing: -1px;}
+.best .swiper-slide .txt p{font-size: 14px; color: #434343; letter-spacing: -1.2px; width: 318px; margin: 0 auto;}
 
 #btn{position: absolute; width: 1470px; left: -40px; top: 50%; }
 
 .swiper-button-next, .swiper-button-prev{color: #aaa; z-index: 1;transform: scale(0.4)translateY(-50%)}
 
-.media{width: 100%; height: 100vh; box-sizing: border-box; background: #fff;padding: 100px 0;}
+.media{width: 100%; height: 100vh;background: #fff;padding: 100px 0;}
 .media .title{font-size: 38px; color: #161616;margin-top: 0;}
 .media .title span{font-weight: bold;}
 .media>p{text-align: center; font-family: "Noto Sans Kr";font-size: 18px; color: #4f2700; position: relative;}
