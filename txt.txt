@@ -1,0 +1,131 @@
+<헤더>
+
+바디리핏
+https://www.sungsimdang.co.kr/theme/responsive_sungsimdang/img/body_bg_repeat.jpg
+
+<아이콘>
+shop
+https://www.svgrepo.com/show/439465/bag-fill.svg
+인스타그램
+https://www.svgrepo.com/show/521711/instagram.svg
+페이스북
+https://www.svgrepo.com/show/512120/facebook-176.svg
+유투브
+https://www.svgrepo.com/show/513089/youtube-168.svg
+탑
+https://www.sungsimdang.co.kr/theme/responsive_sungsimdang/include/img/ui.totop6.png
+애로우
+https://www.sungsimdang.co.kr/theme/responsive_sungsimdang/include/img/arrow.svg
+
+<로고> 
+https://www.sungsimdang.co.kr/theme/responsive_sungsimdang/include/img/top_logo.svg
+작은 쇼핑백 속 로고
+https://www.sungsimdang.co.kr/theme/responsive_sungsimdang/include/img/h_shop_ico.svg
+
+<슬라이드>
+https://www.sungsimdang.co.kr/data/file/main_img/1794428356_5vJwqGix_dbc5c99f0625591ab54bb54e22056e721e5fa7d2.jpg
+https://www.sungsimdang.co.kr/data/file/main_img/1794428356_zbp4xY9G_fbfe4e5d745c30a89f0adcf5d24a3687747c698f.jpg
+
+모든 이가 어쩌구
+https://www.sungsimdang.co.kr/theme/responsive_sungsimdang/include/img/main_banner.jpg
+
+
+<성심당은 대전의 문화입니다>
+https://www.sungsimdang.co.kr/theme/responsive_sungsimdang/include/img/m_about.png
+
+<명예의전당>
+순도 99.99
+https://www.sungsimdang.co.kr/data/file/main_signature/1794428356_ciDW30pN_0b596edb99cbb680e011337c824499b29988c318.jpg
+순수롤
+https://www.sungsimdang.co.kr/data/file/main_signature/1794428356_AnGfIwe5_2e370816b6c52dad258119d824558a6a3f2071b2.jpg
+순수마들렌
+https://www.sungsimdang.co.kr/data/file/main_signature/1794428356_gf0JuKFN_c8474fcd29f483baac919967befb4098180344f4.jpg
+딸기밭과수원길
+https://www.sungsimdang.co.kr/data/file/main_signature/1794428356_TNe6QnuE_d144bb0ff4bcd8c3a2b70fdba0916f6f2bc0ef9e.jpg
+맷돌로갈은통밀빵
+https://www.sungsimdang.co.kr/data/file/main_signature/1794428356_w5AIHRu3_1e34cf83121daae65a8c646727eb96eac811db42.jpg
+명란바게트
+https://www.sungsimdang.co.kr/data/file/main_signature/1794428356_L1zx2WQt_2713171d642a266d7dd998246420067cac3dcf16.jpg
+튀김소보로
+https://www.sungsimdang.co.kr/data/file/main_signature/1794428356_va0YSjMs_a2195fadc6c727ef8dd57388cccccaf6fb4ac829.jpg
+보문산메아리
+https://www.sungsimdang.co.kr/data/file/main_signature/1794428356_I5gyNzKC_42d528ef3bd59d9eb83ecf97b7c3d89a39bd15af.jpg
+대전부르스만주
+https://www.sungsimdang.co.kr/data/file/main_signature/1794428356_Y32XVMps_b2749d774be1127212e9b197d112b0c714ff1b3e.jpg
+대전부르스전병
+https://www.sungsimdang.co.kr/data/file/main_signature/1794428356_Rkns8963_7b759d3888b8e9aa2fca6d3a26d99fb6226e54a0.jpg
+대전부르스약과
+https://www.sungsimdang.co.kr/data/file/main_signature/1794428356_XUCeKYVw_d3ab1f142f8fdb6e5085225fec2855a26f156abb.jpg
+대전부르스떡
+https://www.sungsimdang.co.kr/data/file/main_signature/1794428356_6wuLVjRB_735383b90ebe103239c83d83e47a5c0298cc089e.jpg
+
+<미디어>
+성심당문화원
+https://www.sungsimdang.co.kr/data/file/main_video/thumb-1794428356_ylnJN2YD_d537844c9662f98df65bbfad438db623a4e7a4e5_415x500.jpg
+우리가 사랑한 빵집 성심당
+https://www.sungsimdang.co.kr/data/file/main_video/thumb-1794428356_wWC4UKTD_a17baa589b4ccc44818138e68ba2e0cb31df1725_415x500.jpg
+성심당 창업 60주년 기념 전시
+https://www.sungsimdang.co.kr/data/file/main_video/thumb-1794428356_a6H8Nsnw_d2feb0aa32dba404c88b651cec2d0dd96ed773eb_415x500.jpg
+
+호버
+https://sungsimdang.co.kr/data/file/main_video/thumb-1794428356_wWC4UKTD_a17baa589b4ccc44818138e68ba2e0cb31df1725_415x500.jpg
+
+
+<패밀리브랜드>
+성심당 본점
+https://www.sungsimdang.co.kr/data/file/31/1794428356_mkecVY7P_b300b9d2a1afc1591caa646b7b577c07737a5972.png
+성심당 케익부띠끄
+https://www.sungsimdang.co.kr/data/file/31/1794428356_1tuPJkBD_3d28211101fa1130a5702b7261f59fe516d7b39a.png
+성심당 DCC점
+https://www.sungsimdang.co.kr/data/file/31/1794428356_GLFoM3vt_dd3cd857d833e26b87567f551f61a354b4d02ff7.jpg
+성심당 롯데백화점 대전점
+https://www.sungsimdang.co.kr/data/file/31/1794428356_OD5H32bU_467861efb37d589696868d98f8d9bb883b02a7a9.png
+성심당 대전역점
+https://www.sungsimdang.co.kr/data/file/31/1794428356_izmf9Ovy_0ca12519feb7fa2d51fd776b39f6da70f4742bb8.png
+성심당 옛맛솜씨
+https://www.sungsimdang.co.kr/data/file/31/1794428356_AkicFdnj_df3b7429278f87f9deb781b691f0461146680264.png
+성심당문화원
+https://www.sungsimdang.co.kr/data/file/31/1794428356_PxtkiW3Y_32d0752118de05350ee704d4bd0a127775b781dc.png
+테라스키친
+https://www.sungsimdang.co.kr/data/file/31/1794428356_n4r8JiPT_800733be45218667e6ac37207cfeca189a10f0ce.png
+플라잉팬
+https://www.sungsimdang.co.kr/data/file/31/1794428356_xRuV0UW9_18a34545f25ff4da0b3c5ad3c607bd58ff0cded5.png
+우동야
+https://www.sungsimdang.co.kr/data/file/31/1794428356_aODSoxPL_dcc6101bffa54b970951a8f3f702a257381f1915.png
+삐아또
+https://www.sungsimdang.co.kr/data/file/31/1794428356_mwVlJvHp_8bb7fae0e832a96f2b4b4d2ebe846ec9a739b4f0.png
+오븐스토리
+https://www.sungsimdang.co.kr/data/file/31/1794428356_q0IuBFUR_a347584d1c6dee64f79b9583be4f0ea3ae70aa3f.png
+
+
+폰트
+
+monsterrat
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+KR:wght@100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+noto sans kr
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+KR:wght@100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+Maru buri
+@font-face {
+    font-family: 'MaruBuri';
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Regular.eot);
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Regular.eot?#iefix) format("embedded-opentype"), url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Regular.woff2) format("woff2"), url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Regular.woff) format("woff"), url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Regular.ttf) format("truetype");
+}
+
+
+@font-face {
+    font-family: 'MaruBuriBold';
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Bold.eot);
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Bold.eot?#iefix) format("embedded-opentype"), url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Bold.woff2) format("woff2"), url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Bold.woff) format("woff"), url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Bold.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: 'MaruBuriLight';
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Light.eot);
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Light.eot?#iefix) format("embedded-opentype"), url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Light.woff2) format("woff2"), url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Light.woff) format("woff"), url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Light.ttf) format("truetype");
+}
