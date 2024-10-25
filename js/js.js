@@ -56,12 +56,14 @@ window.scrollTo({top: 0, behavior: 'smooth'})
 
 //명예의 전당
 
-var swiper = new Swiper(".mySwiper1", {
+var swiper1 = new Swiper(".mySwiper1", { 
+  //스와이퍼 여러개면 var을 다른 이름으로 지정해야 함, 클래스도 myswiper은 다르게
+  slidesPerView: 4,
+  spaceBetween: 30,
   speed: 1500,
-  loop: true,
-  slidesOffsetBefore: -1042,
+  loop: true, //무한루프는 오토플레이가 아니라 기본값에 주는거임
+  //slidesOffsetBefore: -1042,
   autoplay: {
-    loop: true,
     dalay:1000,
     disableOnInteraction: false,
   },
